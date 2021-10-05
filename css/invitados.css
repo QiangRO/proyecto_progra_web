@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 15px;
+	padding-top: 10px; 
+}
+
+.invitados{
+    background: rgb(96, 187, 164);
+    padding-bottom: 0px;
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usu{
+    width: 26%;
+    text-align: center;
+}
+
+.usu img{
+    width: 90%;
+}

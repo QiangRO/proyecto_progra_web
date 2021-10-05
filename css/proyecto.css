@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(https://www.xtrafondos.com/wallpapers/ciudad-nocturna-en-arte-neon-3474.jpg);
+    height: 752px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section {
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+section h1 {
+    font-size: 25px; /*tamaño de letra*/
+    padding-left: 15px;
+}
+.conte {
+    text-align: center;
+}
+.conte p {
+    font-size: 80px; /*tamaño de letra*/
+    font-weight: bold; /*Fuente*/
+    margin: 1em 0; /*margin hacia los costados*/
+}
+.conte h2 {
+    font-size: 20px; /*tamaño de letra*/
+    font-weight: bold; /*Fuente*/
+    margin: 0.5em 0; /*margin hacia los costados*/
+}
+.conte a {
+    color: white; 
+    text-decoration: none;
+    background: violet;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10px;
+    transition:all .9s ease;
+}
+.conte a :hover{
+    transform:scale(1.10);
+}
+/* FIN HEADER*/
+
+/*BARRA LATERAL*/
+.barra{
+	background-color: rgb(0, 30, 70);
+	float: left;  /*colocará la barra alineado a la izquierda*/
+	height: 2200px;   /*aumenta el tamaño de la barra*/
+	padding-left: 10px;
+	padding-right: 2px;
+}
+nav ul{
+    color: white; 
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.barranav {
+    color: white; 
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+/*FIN BARRA LATERAL*/
+/*SECTION*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+}
+
+.imagen-about-us{
+    width: 48%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3 span{
+    background: rgba(68, 52, 87, 0.952);
+    color: rgb(255, 227, 220);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    height: 30%;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 30px;
+}
+
+.portafolio-event{
+    background: rgb(211, 207, 207);
+}
+.portafolio-colab{
+    background: rgb(193, 214, 185);
+}
+.galeria-img{
+    display: flex;
+}
+
+.imagen-port{
+    width: 25%;
+    margin-bottom: 2%; 
+}
+
+.imagen-port > img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.about-service{
+    background: cornsilk;
+    padding-bottom: 30px;
+}
+.contenedor{
+    padding: 40px 0;
+    padding-left: 100px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.primer-evento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primer-eve{
+    width: 28%;
+    text-align: center;
+}
+
+.primer-eve img{
+    width: 90%;
+}
+/*FIN SECTION*/

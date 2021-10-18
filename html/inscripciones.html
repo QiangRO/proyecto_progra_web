@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reservaciones</title>
+    <link rel="stylesheet" href="../css/main.css">
+
 </head>
 <body>
     <section class="seccion contenedor">
@@ -23,6 +25,10 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Tu Email">
                 </div>
+                <div class="campo">
+                    <label for="apellido">Carnet/NIT:</label>
+                    <input type="number" id="carnet/nit" name="carnet/nit" placeholder="Tu carnet/nit">
+                </div>
                 <div id="error"></div>
             </div>
             <!--#datos_usuario-->
@@ -33,7 +39,7 @@
                     <li>
                         <div class="tabla-precio">
                             <h3>Pase por día (viernes)</h3>
-                            <p class="numero">$30</p>
+                            <p class="numero">50 BOB.</p>
                             <ul>
                                 <li>Bocadillos Gratis</li>
                                 <li>Todas las conferencias</li>
@@ -49,7 +55,7 @@
                     <li>
                         <div class="tabla-precio">
                             <h3>Todos los días</h3>
-                            <p class="numero">$50</p>
+                            <p class="numero">150 BOB.</p>
                             <ul>
                                 <li>Bocadillos Gratis</li>
                                 <li>Todas las conferencias</li>
@@ -65,8 +71,104 @@
 
                     <li>
                         <div class="tabla-precio">
-                            <h3>Pase por 2 días (viernes y sábado)</h3>
-                            <p class="numero">$45</p>
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
+                            <ul>
+                                <li>Bocadillos Gratis</li>
+                                <li>Todas las conferencias</li>
+                                <li>Todos los talleres</li>
+                            </ul>
+                            <div class="orden">
+                                <label for="pase_dosdias">Boletos deseados:</label>
+                                <input type="number" min="0" id="pase_dosdias" size="3" name="boletos[2dias][cantidad]" placeholder="0">
+                                <input type="hidden" value="45" name="boletos[2dias][precio]">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabla-precio">
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
+                            <ul>
+                                <li>Bocadillos Gratis</li>
+                                <li>Todas las conferencias</li>
+                                <li>Todos los talleres</li>
+                            </ul>
+                            <div class="orden">
+                                <label for="pase_dosdias">Boletos deseados:</label>
+                                <input type="number" min="0" id="pase_dosdias" size="3" name="boletos[2dias][cantidad]" placeholder="0">
+                                <input type="hidden" value="45" name="boletos[2dias][precio]">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabla-precio">
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
+                            <ul>
+                                <li>Bocadillos Gratis</li>
+                                <li>Todas las conferencias</li>
+                                <li>Todos los talleres</li>
+                            </ul>
+                            <div class="orden">
+                                <label for="pase_dosdias">Boletos deseados:</label>
+                                <input type="number" min="0" id="pase_dosdias" size="3" name="boletos[2dias][cantidad]" placeholder="0">
+                                <input type="hidden" value="45" name="boletos[2dias][precio]">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabla-precio">
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
+                            <ul>
+                                <li>Bocadillos Gratis</li>
+                                <li>Todas las conferencias</li>
+                                <li>Todos los talleres</li>
+                            </ul>
+                            <div class="orden">
+                                <label for="pase_dosdias">Boletos deseados:</label>
+                                <input type="number" min="0" id="pase_dosdias" size="3" name="boletos[2dias][cantidad]" placeholder="0">
+                                <input type="hidden" value="45" name="boletos[2dias][precio]">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabla-precio">
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
+                            <ul>
+                                <li>Bocadillos Gratis</li>
+                                <li>Todas las conferencias</li>
+                                <li>Todos los talleres</li>
+                            </ul>
+                            <div class="orden">
+                                <label for="pase_dosdias">Boletos deseados:</label>
+                                <input type="number" min="0" id="pase_dosdias" size="3" name="boletos[2dias][cantidad]" placeholder="0">
+                                <input type="hidden" value="45" name="boletos[2dias][precio]">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabla-precio">
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
+                            <ul>
+                                <li>Bocadillos Gratis</li>
+                                <li>Todas las conferencias</li>
+                                <li>Todos los talleres</li>
+                            </ul>
+                            <div class="orden">
+                                <label for="pase_dosdias">Boletos deseados:</label>
+                                <input type="number" min="0" id="pase_dosdias" size="3" name="boletos[2dias][cantidad]" placeholder="0">
+                                <input type="hidden" value="45" name="boletos[2dias][precio]">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tabla-precio">
+                            <h3>Boleto para 2 días (viernes y sábado)</h3>
+                            <p class="numero">100 BOB.</p>
                             <ul>
                                 <li>Bocadillos Gratis</li>
                                 <li>Todas las conferencias</li>
@@ -84,7 +186,7 @@
             <!--#paquetes-->
 
 
-            <div id="eventos" class="eventos clearfix">
+            <!-- <div id="eventos" class="eventos clearfix">
                 <h3>Elige tus talleres</h3>
                 <div class="caja">
 
@@ -262,14 +364,12 @@
                                                    </label>
                         </div>
                     </div>
-                    <!--.contenido-dia -->
                 </div>
-                <!--.caja-->
-            </div>
+            </div> -->
             <!--#eventos-->
 
             <div id="resumen" class="resumen">
-                <h3>Pago y Extras</h3>
+                <h3>Pago y Regalos</h3>
                 <div class="caja clearfix">
                     <div class="extras">
                         <div class="orden">

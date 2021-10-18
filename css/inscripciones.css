@@ -1,0 +1,126 @@
+/**Seccion*/
+.seccion {
+    padding: 30px 0;
+}
+.seccion p {
+    font-size: 1.2em;
+    text-align: center;
+}
+/**Contenedor**/
+.contenedor {
+    width: 98%;
+    margin:0 auto;
+}
+@media only screen and (min-width:480px) {
+    .contenedor {
+    width: 95%;
+    }
+}
+@media only screen and (min-width:768px) {
+    .contenedor {
+    width: 90%;
+    }
+}
+@media only screen and (min-width:992px) {
+    .contenedor {
+    width: 90%;
+    max-width: 1100px;
+    }
+}
+/** Registro **/
+form.registro h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+form.registro label {
+    margin-bottom: 5px;
+    font-weight: bold;    
+}
+/**Caja**/
+div.caja {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    margin: 10px;
+}
+div.campo {
+    padding: 20px;
+}
+@media only screen and (min-width:768px) {
+    div.campo {
+    float: left;
+    width: 33.3%;
+    }
+}
+form.login div.campo,
+form.invitado div.campo {
+    width: 100%;
+    float: none;
+    padding: 5px;
+}
+form.invitado div.campo {
+    margin-bottom: 10px;
+}
+/**Paquetes**/
+div.paquetes .tabla-precio:hover {
+    transform: none;
+    box-shadow: none;
+}
+div.paquetes .tabla-precio input {
+    clear: both;    
+    width: 100px;
+    margin: 10px auto 0 auto;
+    display: block;
+}
+/** Tabla de Precios **/
+ul.lista-precios > li {
+    padding: 10px;
+}
+@media only screen and (min-width:768px){
+    ul.lista-precios > li {
+        float: left;
+        width: 33.3%;
+    }
+}
+
+div.tabla-precio {
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    transition: all .3s ease;
+}
+div.tabla-precio:hover {
+    transform: scale(1.1);
+    border: 1px solid #fe4918;
+    box-shadow: 0px 0px 50px #666;
+}
+div.tabla-precio ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #868686;
+    line-height: 26px;
+}
+div.tabla-precio ul li:before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-size: 20px;
+    color: green;
+    -webkit-font-smoothing: antialiased;
+    content: '\f00c';
+    
+}
+div.tabla-precio h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    text-transform: uppercase;
+}
+div.tabla-precio p.numero {
+    color: #000000;
+    margin: 20px 0;
+}

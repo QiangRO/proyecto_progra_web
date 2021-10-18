@@ -5,7 +5,7 @@
 }
 
 header {
-    background: url(https://www.xtrafondos.com/wallpapers/ciudad-nocturna-en-arte-neon-3474.jpg);
+    background: url(../img_fondos/fondo5.jpg);
     height: 752px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,6 @@ section h1 {
 /** FIN HEADER**/
 /**BARRA DE NAVEGACION**/
 .navbar {
-    background: #1b4f8f;
     position: sticky;
     top: 0;
     z-index: 1;

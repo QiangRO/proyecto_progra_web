@@ -5,19 +5,18 @@
 }
 .registrar/*Tamaño del formulario,color , todas las caracteristicas del formulario.etc */
 {
- width: 400px;
- background-color:rgb(9, 9, 78);
- padding: 30px;
- margin: auto;
-  
- font-family:Verdana, Geneva, Tahoma, sans-serif;
- color:white;
- box-shadow: blue;
+    width: 400px;
+    background-color:rgb(9, 9, 78);
+    padding: 30px;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    box-shadow: blue;
 }
 .registrar h4 /*el titulo que va al medio*/
 {
- font-size: 22px;
- margin-bottom: 20px;   
+    font-size: 22px;
+    margin-bottom: 20px;   
 }
 .controls/*los inputs donde se llena la informacion*/
 {
@@ -39,12 +38,12 @@
 
 .registrar .boton/*el boton */
 {
-  width: 100%; 
-  background-color:navy ; 
-  border-radius:2px ;
-  padding: 10px;
-  font-size: 16px;
-  cursor:pointer;
+    width: 100%; 
+    background-color:navy ; 
+    border-radius:2px ;
+    padding: 10px;
+    font-size: 16px;
+    cursor:pointer;
 
 }
 body/*imagen de fondo*/

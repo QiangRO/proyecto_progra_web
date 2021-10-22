@@ -10,7 +10,7 @@ footer/*colores */
     width: 100%;
     text-decoration: none;
     color: linen;
-    background-color:rgb(54, 54, 54);
+    background-color: #202c3a;
     justify-content:space-between;
 }
 
@@ -29,31 +29,30 @@ margin-left: 250px;
 .columna1/*primera columna del div*/
 {
     max-width: 400px;
-    margin-left: 20px;
 }
 .columna1 h1
 {
     font-size: 22px; 
-    color:rgb(111, 213, 247);
+    color: #a80f78; 
 }
 .columna2
 {
     max-width:400px;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 .columna2 h1
 {
     font-size: 22px; 
-    color:rgb(111, 213, 247);
+    color: #a80f78; 
 }
 .columna3
 {
-    margin-left: 80px;
+    margin-left: 100px;
 }
 .columna3 h1
 {
     font-size: 22px; 
-    color:rgb(111, 213, 247);
+    color: #a80f78; 
 }
 .row
 {
@@ -74,27 +73,18 @@ margin-left: 250px;
 {
     width: 150px;
     height: 150px;
-}
-.form
-{
     margin-top: 20px;
     display: flex;
 }
+
 @media screen and (max-width:1100px)
 {
     .contenedor_cuerpo
     {
         flex-wrap:wrap;
     }
-}/*
-a :hover
-{
-    color: orangered;
 }
-a:visited
-{
-    color: slategray;
-}*/
+
 #rotaciones:hover
 {
 -webkit-transform: rotate(30deg);
